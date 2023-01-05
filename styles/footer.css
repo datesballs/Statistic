@@ -40,13 +40,13 @@ a{
     color: var(--white);
 }
 
-.siteMapFooter{
+.siteMapFooter {
     grid-column: 2/3;
     position: relative;
 }
 
 .sitemapLeft{
-    position: absolute;
+    position: absolute ;
     list-style: none;
     bottom: 100%;
 }
