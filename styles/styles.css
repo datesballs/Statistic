@@ -18,7 +18,7 @@ body {
   
   
   /* basic colours */
-  --white: rgb(255, 255, 255);
+  --white: #ffffff;
   --black: rgb(15, 15, 15);
   
   /* bgBlack = bagground black */
