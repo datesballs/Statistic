@@ -1,0 +1,26 @@
+@import url(https://fonts.googleapis.com/css?family=Comfortaa);
+body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  box-sizing: border-box;
+  font-family: 'Comfortaa', sans-serif;
+}
+
+:root {
+  /* primary colours */
+  --Cyan: rgb(111, 191, 183, 1);
+  --darkCyan: rgb(2, 54, 58, 1);
+  --lightCyan: rgb(196, 254, 251, 1);
+  
+  /* secondary colours */
+  --orange: rgb(242, 113, 39, 1);
+  
+  
+  /* basic colours */
+  --white: rgb(255, 255, 255);
+  --black: rgb(15, 15, 15);
+  
+  /* bgBlack = bagground black */
+  --bgBlack: rgb(25, 25, 25);
+}
