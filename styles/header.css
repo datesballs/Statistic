@@ -10,6 +10,8 @@
 
 img {
   width: 6%;
+  margin-top: 1%;
+  margin-left: 5%;
 }
 
 ul {
@@ -20,7 +22,9 @@ ul {
 }
 
 li {
-  float: left;
+  float: right;
+  padding-right: 5%;
+  padding-top: 2%;
 }
 
 li a {
