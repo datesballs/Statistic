@@ -1,9 +1,6 @@
 .footer{
     position: absolute;
     width: 100vw;
-    height: 325px;
-    left: 0;
-    top: 0;
     background-color: var(--darkCyan);
     color: var(--white);
 }
@@ -15,29 +12,22 @@ img {
   }
 
 .footerGrid{
-    background-color: var(--darkCyan);
-    height: auto ;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
 }
 
 .newsLetter{
     text-align: center;
-    height: auto;
 }
 .newsLetter h3{
     margin-bottom: 1.5%;
 }
 input{
-    margin-top: 0px;
     border-radius: 10px;
     height: 25px;
     width: 280px;
     background-color: #d9d9d9;
-    -webkit-border-radius: 10px;
-    -moz-border-radius: 10px;
-    -ms-border-radius: 10px;
-    -o-border-radius: 10px;
+
 }
 
 .footerLogo{
@@ -53,14 +43,11 @@ a{
 .siteMapFooter{
     grid-column: 2/3;
     position: relative;
-
-    text-decoration: none;
 }
 
 .sitemapLeft{
     position: absolute;
     list-style: none;
-    left: 0;
     bottom: 100%;
 }
 
@@ -83,17 +70,14 @@ a{
     
 }
 
-
 .footerSocial{
-    position: absolute;
-    grid-area: 3/3;
+    position: absolute; 
     bottom: 10px;
-    width: 300px;
+    width: 320px;
     right: 0;
 }
+
 .footerSocial img{
     bottom: 0;
-    width: 50px;
-    
-    
+    width: 40px;    
 }
