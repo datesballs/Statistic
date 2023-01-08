@@ -16,6 +16,7 @@ img {
 .footerGrid{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
+    padding-bottom: 2%;
 }
 
 .newsLetter{
@@ -89,3 +90,5 @@ a{
     
     padding-bottom: 5%;
 }
+
+

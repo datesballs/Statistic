@@ -18,6 +18,10 @@ header {
   margin-top: 0.8em;
 }
 
+.logo img:hover {
+  transform: scale(1.1);
+}
+
 nav ul {
   display: flex;
   list-style-type: none;
@@ -44,16 +48,7 @@ ul li a:hover {
   transition: 0.3s;
 }
 
-.menu-trigger {
-  display: none;
-  margin-right: 1.5em;
-  background: #d56287;
-  color: #fff;
-  padding: 5px;
-  cursor: pointer;
-  font-weight: bold;
-  text-decoration: none;
-}
+
 
 
 
