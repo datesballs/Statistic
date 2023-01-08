@@ -1,3 +1,5 @@
+
+
 .footer{
     position: absolute;
     width: 100vw;
@@ -17,6 +19,7 @@ img {
 }
 
 .newsLetter{
+    padding-top: 2%;
     text-align: center;
 }
 .newsLetter h3{
@@ -80,4 +83,9 @@ a{
 .footerSocial img{
     bottom: 0;
     width: 40px;    
+}
+
+.sitemapPl {
+    
+    padding-bottom: 5%;
 }

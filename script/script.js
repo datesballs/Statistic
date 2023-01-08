@@ -7,3 +7,4 @@ $(window).scroll(function () {
 		$("#main-navbar").removeClass("navbar-scroll")
 	}
 });
+

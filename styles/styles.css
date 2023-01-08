@@ -20,6 +20,7 @@ body {
   /* basic colours */
   --white: #ffffff;
   --black: rgb(15, 15, 15);
+  --blackOpa: rgb(15, 15, 15, 20%);
   
   /* bgBlack = bagground black */
   --bgBlack: rgb(25, 25, 25);
