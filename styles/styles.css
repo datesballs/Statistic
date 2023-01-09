@@ -9,8 +9,8 @@ body {
 
 :root {
   /* primary colours */
-  --Cyan: rgb(111, 191, 183, 1);
-  --darkCyan: rgb(2, 54, 58, 1);
+  --Cyan: #6fbfb7;
+  --darkCyan: #02363a;
   --lightCyan: #c4fefb;
   
   /* secondary colours */
