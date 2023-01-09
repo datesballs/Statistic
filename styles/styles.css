@@ -14,9 +14,9 @@ body {
 
 :root {
   /* primary colours */
-  --Cyan: rgb(111, 191, 183, 1);
-  --darkCyan: rgb(2, 54, 58, 1);
-  --lightCyan: rgb(196, 254, 251, 1);
+  --Cyan: #6fbfb7;
+  --darkCyan: #02363a;
+  --lightCyan: #c4fefb;
   
   /* secondary colours */
   --orange: rgb(242, 113, 39, 1);
