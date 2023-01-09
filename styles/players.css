@@ -1,0 +1,89 @@
+html,
+body {
+  scroll-behavior: smooth;
+}
+
+.breadcrumbs {
+    position: absolute;
+    color: var(--white);
+}
+
+.topSection {
+    padding-top: 1%;
+}
+
+.breadcrumbsText {
+    color: var(--white);
+}
+
+.banner {
+    width: 100%;
+}
+
+.topInfo {
+    display: flex;
+    justify-content: center;
+}
+
+.leftTopInfo {
+    padding-right: 25%;
+}
+
+.csgoLogo {
+    padding-bottom: 56px;
+}
+
+.rightTopInfo {
+    padding-top: 60px;
+    gap: 5%;
+    display: flex;
+}
+
+.nameInfo {
+    background-color: var(--darkCyan);
+    color: var(--white);
+    width: 130px;
+    height: 40px;
+    padding-top: 12px;
+    text-align: center;
+    border-radius: 40px;
+}
+.infoImg {
+    display: flex;
+    background-color: var(--Cyan);
+    color: var(--white);
+    width: 130px;
+    height: 40px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    text-align: center;
+    border-radius: 40px;
+}
+
+
+.realName {
+    padding-left: 22%;
+    padding-top: 25px;
+}
+
+
+.about {
+    padding-left: 22%;
+    padding-top: 25px;
+    padding-right: 22%;
+}
+
+.aboutPlayer {
+    padding-top: 15px;
+    padding-bottom: 45px;
+}
+
+.aboutTxtSpecific {
+    padding-top: 25px;
+}
+
+.teammates {
+    padding-top: 120px;
+}
+
+
