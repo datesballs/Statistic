@@ -7,6 +7,11 @@ body {
   font-family: 'Comfortaa', sans-serif;
 }
 
+html,
+body {
+  scroll-behavior: smooth;
+}
+
 :root {
   /* primary colours */
   --Cyan: #6fbfb7;
@@ -25,3 +30,24 @@ body {
   /* bgBlack = bagground black */
   --bgBlack: rgb(25, 25, 25);
 }
+
+/* Breadcrumbs below */
+.breadcrumbs {
+  display: flex;
+  flex-direction: row;
+  padding-left: 10%;
+  padding-top: 1%;
+  padding-bottom: 1%;
+}
+
+.breadcrumbsText {
+  color: black;
+  font-style: italic;
+  padding: 0 10px 0 10px;
+}
+
+.breadcrumbsText:hover {
+  color: var(--orange);
+  transition: 0.3s;
+}
+

@@ -1,0 +1,140 @@
+html,
+body {
+  scroll-behavior: smooth;
+}
+
+.toTop {
+  text-align: center;
+  padding-bottom: 1%;
+  padding-top: 3%;
+  color: var(--black);
+}
+
+.toTop:hover {
+  color: var(--orange);
+  transition: 0.5s;
+  transition-duration: 0.5s;
+}
+
+.headline {
+  font-size: 2rem;
+  text-align: center;
+  padding: 3% 0%;
+}
+
+.aboutGuides {
+  color: var(--black);
+  padding: 0 25% 0 25%;
+}
+
+.headlineUnder {
+  padding-left: 20%;
+  padding-top: 5%;
+  padding-right: 20%;
+}
+
+.headlineUnderTxt {
+  font-size: 1.5rem;
+  padding-bottom: 15px;
+}
+
+.contactButton {
+  background-color: var(--darkCyan);
+  color: var(--white);
+  font-family: Comfortaa;
+  font-size: 1rem;
+  border: 1.5px solid var(--black);
+  width: 200px;
+  height: 40px;
+  cursor: pointer;
+}
+
+
+
+#vertigo {
+  background-image: url("../images/vertigo.png");
+}
+#overpass {
+  background-image: url("../images/overpass.png");
+}
+#mirage {
+  background-image: url("../images/mirage.png");
+}
+#inferno {
+  background-image: url("../images/inferno.png");
+}
+#nuke {
+  background-image: url("../images/nuke.png");
+}
+#anubis {
+  background-image: url("../images/anubis.png");
+}
+#ancient {
+  background-image: url("../images/ancient.png");
+}
+#vertigo:hover,
+#overpass:hover,
+#mirage:hover,
+#inferno:hover,
+#nuke:hover,
+#anubis:hover,
+#ancient:hover {
+  background-image: none;
+  transition: 0.5s;
+  transition-duration: 0.5s;
+}
+
+.contactButton:hover {
+  color: var(--orange);
+  transition: 0.5s;
+  transition-duration: 0.5s;
+}
+
+.topButtons {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 1%;
+  padding-bottom: 1%;
+  padding-top: 1%;
+}
+
+.upcoming {
+  display: flex;
+  flex-direction: row;
+  gap: 2%;
+}
+
+.mapSection {
+  background-color: var(--lightCyan);
+  margin-bottom: 2%;
+  border-bottom: 5px solid var(--blackOpa);
+}
+
+.videos {
+  padding-top: 2%;
+  padding-bottom: 2%;
+  display: flex;
+  justify-content: center;
+  gap: 5%;
+}
+
+iframe {
+  border: none;
+  box-shadow: 5px 5px var(--blackOpa);
+}
+
+.videosection {
+  text-align: center;
+}
+
+.videoText {
+  padding-top: 4%;
+}
+
+.comingSoon {
+  box-shadow: 5px 5px var(--blackOpa);
+  box-shadow: 20px solid green;
+  width: 345px;
+  height: 345px;
+}

@@ -1,0 +1,136 @@
+body {
+    width: 100%;
+}
+
+.minRolle .videoFrontpage {
+    height: 100%;
+    width: 100%;
+    border-bottom: 5px solid var(--blackOpa);
+}
+
+.headline {
+  font-size: 2rem;
+  text-align: center;
+  padding: 3% 0%;
+}
+
+span {
+  font-size: large;
+}
+
+#history {
+    background-color: var(--lightCyan);
+}
+
+.headlineUnder {
+    text-align: center;
+  padding-top: 5%;
+  padding-bottom: 1%;
+}
+
+.headlineUnderTxt {
+  font-size: 1.5rem;
+  padding-bottom: 15px;
+}
+
+.aboutHistory {
+  color: var(--black);
+  padding: 0 25% 1.5% 25%;
+}
+
+#aboutHistory {
+    padding-bottom: 5%;
+}
+
+.year {
+  padding: 0 0 3% 32%;
+  text-decoration: underline;
+}
+
+.listTimeline {
+    padding-bottom: 5%;
+}
+
+.punkt {
+  padding: 0 35% 1.5% 35%;
+}
+
+
+
+
+
+.card {
+    display: flex;
+    justify-content: center;
+    gap: 2%;
+}
+
+.match {
+    display: flex;
+    flex-direction: row;
+    border-radius: 30px;
+    background-color: var(--lightCyan);
+    margin-bottom: 20px;
+    width: 700px;
+}
+
+#match {
+    background-color: var(--Cyan);
+}
+
+.timeAndDate {
+    font-size: 1rem;
+}
+
+
+.matchResult {
+    display: flex;
+}
+
+.imgMatch {
+    transform: scale(1.20);
+    padding-top: 20px;
+    padding-left: 45px;
+}
+
+img {
+    margin: 0;
+}
+
+.teamNames {
+
+    padding-top: 10px;
+}
+
+.homeTeam {
+    text-align: center;
+    padding-top: 20px;
+    font-size: 1.5rem;
+}
+
+.outTeam {
+    text-align: center;
+    padding-right: 100px;
+    padding-left: 120px;
+    padding-top: 55px;
+    text-decoration: underline;
+    color: var(--black);
+}
+.outTeam:hover {
+    color: var(--orange);
+    transition: 0.5s;
+    transition-duration: 0.5s;
+}
+
+.toTop {
+    text-align: center;
+    padding-bottom: 1%;
+    padding-top: 3%;
+    color: var(--black);
+  }
+  
+  .toTop:hover {
+    color: var(--orange);
+    transition: 0.5s;
+    transition-duration: 0.5s;
+  }
