@@ -20,6 +20,7 @@
 
 .sectionCyanBackgroundText {
     color: var(--black);
+    padding-bottom: 0.5%;
     margin: 0 25%;
 }
 
