@@ -1,94 +1,96 @@
-
-
-.footer{
-    position: absolute;
-    width: 100vw;
-    background-color: var(--darkCyan);
-    color: var(--white);
+.footer {
+  position: absolute;
+  width: 100vw;
+  background-color: var(--darkCyan);
+  color: var(--white);
 }
 
 img {
-    width: 175px;
-    
-  }
-
-.footerGrid{
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    padding-bottom: 2%;
+  width: 175px;
+  
 }
 
-.newsLetter{
-    padding-top: 2%;
-    text-align: center;
-}
-.newsLetter h3{
-    margin-bottom: 1.5%;
-}
-input{
-    border-radius: 10px;
-    height: 25px;
-    width: 280px;
-    background-color: #d9d9d9;
-
+.footerGrid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  padding-bottom: 2%;
 }
 
-.footerLogo{
-    margin-top: 13%;
-    margin-left: 5%;
+.newsLetter {
+  padding-top: 2%;
+  text-align: center;
+}
+.newsLetter h3 {
+  margin-bottom: 1.5%;
+}
+input {
+  border-radius: 10px;
+  height: 25px;
+  width: 280px;
+  background-color: #d9d9d9;
 }
 
-a{
-    text-decoration: none;
-    color: var(--white);
+.footerLogo {
+  margin-top: 13%;
+  margin-left: 5%;
+}
+
+a {
+  text-decoration: none;
+  color: var(--white);
 }
 
 .siteMapFooter {
-    grid-column: 2/3;
-    position: relative;
+  grid-column: 2/3;
+  position: relative;
 }
 
-.sitemapLeft{
-    position: absolute ;
-    list-style: none;
-    bottom: 100%;
+.sitemapLeft {
+  position: absolute;
+  list-style: none;
+  bottom: 100%;
 }
 
-.sitemapRight{
-    position: absolute;
-    list-style: none;
-    right: 0;
-    bottom: 100%;
+.sitemapRight {
+  position: absolute;
+  list-style: none;
+  right: 0;
+  bottom: 100%;
 }
 
-.sitemapBottom{
-    list-style: none;
-    text-align: center;
-    padding: 0;
+.sitemapBottom {
+  list-style: none;
+  text-align: center;
+  padding: 0;
 }
 
-.copyright{
-    text-align: center;
-    margin-block-end: 10px;
-    
+.copyright {
+  text-align: center;
+  margin-block-end: 10px;
 }
 
-.footerSocial{
-    position: absolute; 
-    bottom: 10px;
-    width: 320px;
-    right: 0;
+.footerSocial {
+  position: absolute;
+  bottom: 10px;
+  width: 320px;
+  right: 0;
 }
 
-.footerSocial img{
-    bottom: 0;
-    width: 40px;    
+.footerSocial img {
+  bottom: 0;
+  width: 40px;
 }
 
 .sitemapPl {
-    
-    padding-bottom: 5%;
+  padding-bottom: 5%;
 }
 
+#sitemapPl {
+  padding-bottom: 5%;
+}
 
-
+.linkItem:hover {
+  color: var(--orange);
+  transition: 0.5s;
+  transition-duration: 0.5s;
+}

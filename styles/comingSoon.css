@@ -1,0 +1,11 @@
+.headline {
+    padding-top: 110px;
+}
+
+.comingSoon {
+    width: 100%;
+}
+
+.breadcrumbs, .breadcrumbsText {
+    color: var(--black);
+}
