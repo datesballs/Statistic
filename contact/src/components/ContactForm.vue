@@ -83,6 +83,7 @@
 
     h1 {
     text-align: center;
+    padding: 2% 0 5% 0;
     }
 
     section {
@@ -91,12 +92,11 @@
     flex-direction: column;
     }
     .container {
-        background-color:  #6fbfb7;
-    width: 100%;
-    max-width: 700px;
-    margin: 0 auto;
+    background-color:  #6fbfb7;
+    width: 700px;
+    margin: 0 auto 10%;
     padding: 20px;
-    box-shadow: 0px 0px 20px #00000033;
+    box-shadow: 10px 10px 20px #00000080;
     border-radius: 8px;
     }
     .form {
