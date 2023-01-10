@@ -51,3 +51,36 @@ body {
   transition: 0.3s;
 }
 
+
+.headlineSitemap {
+padding-left: 20%;
+padding-top: 4%;
+padding-bottom: 2%;
+}
+
+.sitemap {
+  display: flex;
+  flex-direction: column;
+}
+
+.sitemapPage {
+  color: var(--black);
+  padding-left: 25%;
+  padding-bottom: 1%;
+}
+
+.sitemapPage:hover, .sitemapPagePlayers:hover {
+  color: var(--orange);
+}
+
+.sitemapPlayers {
+  display: flex;
+  flex-direction: column;
+}
+
+.sitemapPagePlayers {
+  color: var(--black);
+  padding-left: 28%;
+  padding-bottom: 1%;
+}
+
