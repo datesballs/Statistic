@@ -1,4 +1,3 @@
-   
    <template>
     <section>
         <h1>Contact us</h1>
@@ -63,16 +62,21 @@
 
     <script>
     export default {
-    data() {
-        return {
-        name: "",
-        lastname: "",
-        email: "",
-        subject: "",
-        message: "",
-        };
+       
+        data() {
+            return {
+            name: "",
+            lastname: "",
+            email: "",
+            subject: "",
+            message: "",
+            };
+
+
+        
     },
     };
+
     </script>
 
     <style scoped>
